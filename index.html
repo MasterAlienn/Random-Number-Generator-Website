@@ -9,11 +9,11 @@
     </head>
     <body>
         <h1>Random Number Generator</h1>
-        <form method="post" id="f1">
+        <form method="dialog" id="f1">
             <p>
-                <input title="Lower Number" id="in1">
+                <input type="number" title="Lower Number" id="in1">
                 <br>to<br>
-                <input title="Higher Number" id="in2"><br>
+                <input type="number" title="Higher Number" id="in2"><br>
             </p>
         </form>
         <input form="f1" type="submit" id="send" onclick="takeInput();genNum();sendOutput()" value="Generate"><br><br>
